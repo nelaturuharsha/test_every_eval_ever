@@ -6,6 +6,7 @@ on:
     paths:
       - "eval.schema.json"
       - "instance_level_eval.schema.json"
+  workflow_dispatch:
 
 permissions:
   contents: write
